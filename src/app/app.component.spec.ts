@@ -23,7 +23,7 @@ describe('AppComponent', () => {
   it(`should have as title 'demo-angular-travis-ci'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('demo-angular-travis-ci');
+    expect(app.title).toEqual('demo-angular');
   });
 
   it('should render title', () => {

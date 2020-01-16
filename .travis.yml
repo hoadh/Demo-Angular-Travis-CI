@@ -8,6 +8,8 @@ addons:
     sources:
       - google-chrome
     packages:
+      - dpkg
+      - libu2f-udev
       - google-chrome-stable
 
 cache:

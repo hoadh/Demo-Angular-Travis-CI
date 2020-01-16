@@ -9,8 +9,7 @@ addons:
       - google-chrome
     packages:
       - dpkg
-      - libu2f-udev
-      - google-chrome-stable
+      - google-chrome-stable --allow-unauthenticated
 
 cache:
   directories:
